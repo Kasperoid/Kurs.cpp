@@ -179,9 +179,8 @@ void print_file() {
 
 int main()
 {
-	setlocale(0, "");
-	/*SetConsoleCP(1251);
-	SetConsoleOutputCP(1251);*/
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
 	generate_file();
 	print_file();
 }
